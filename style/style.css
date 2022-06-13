@@ -149,6 +149,28 @@ body {
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
+
+  /*HEro*/
+
+  .hero{
+    background-color: black;
+    color: white;
+    padding: 5%;
+  }
+
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img{
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+  .hero-img img{
+   width: 20%;
+  }
   
 
   
@@ -167,6 +189,11 @@ body {
     }
     .header .social img{
         display: none;
+    }
+
+    /*Hero*/
+    .hero-img{
+        margin-top: 5%;
     }
   }
   
