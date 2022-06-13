@@ -255,6 +255,17 @@ body {
       height: 40vh;
       background-color: #BEB4B4;
   }
+  .footer-logo{
+    text-align: center;
+    padding-top: 10%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+}
 
   
   @media (min-width: 768px) {
@@ -292,6 +303,16 @@ body {
      width: 30%;
      flex-grow: 1;
  }
+
+ footer{
+        clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .footer-logo{
+        text-align: center;
+        padding-top: 6%;
+    }
+
 
 
   }
