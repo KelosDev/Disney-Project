@@ -255,20 +255,9 @@ body {
       height: 40vh;
       background-color: #BEB4B4;
   }
-  
-  .footer-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 20%;
-  }
 
   
   @media (min-width: 768px) {
-    main{
-        font-size: 2em;
-    }
     .header li {
       float: left;
     }
