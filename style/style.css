@@ -240,6 +240,22 @@ body {
     text-decoration: none;
   }
 
+  .carriera-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .carriera-text{
+      width: 60%;
+  }
+
+  footer{
+      height: 40vh;
+      background-color: #BEB4B4;
+  }
+
   
   @media (min-width: 768px) {
     .header li {
