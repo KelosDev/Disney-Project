@@ -258,6 +258,9 @@ body {
 
   
   @media (min-width: 768px) {
+    main{
+        font-size: 2em;
+    }
     .header li {
       float: left;
     }
