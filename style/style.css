@@ -1,6 +1,8 @@
+@import url("https://use.typekit.net/woo6bre.css");
+
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: brevia, sans-serif;
     background-color: #f4f4f4;
   }
   
@@ -171,7 +173,32 @@ body {
   .hero-img img{
    width: 20%;
   }
-  
+
+  /*cards*/
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .card{
+     width: 100%;
+     position: relative;
+ }
+
+ .card img{
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+ }
+ .card-text{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    text-shadow: 0px 6px 10px #000000;
+ }
 
   
   @media (min-width: 768px) {
@@ -195,5 +222,18 @@ body {
     .hero-img{
         margin-top: 5%;
     }
+     /*cards*/
+ .cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .card{
+     width: 30%;
+     flex-grow: 1;
+ }
+
+
   }
   
