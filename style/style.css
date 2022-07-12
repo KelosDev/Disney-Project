@@ -324,6 +324,15 @@ footer {
     padding-top: 6%;
 }
 
+.facebook{
+    padding-top: 20px;
+}
+
+.facebook img{
+    width: 40px;
+    
+}
+
 
 @media (min-width: 768px) {
     main {
